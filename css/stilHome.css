@@ -1,0 +1,23 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 18px;
+    background-image: linear-gradient(white, #010f18);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+a:link, a:visited {
+    font-family: Tahoma;
+    font-size: 14px;
+    color: #60c;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: #900;
+    text-decoration: none;
+}
