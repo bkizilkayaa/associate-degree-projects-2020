@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2A0BE5F3-2FA4-4C09-BAFC-1465A22BDD25}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>stajyer_takip_uygulamasi</RootNamespace>
+    <AssemblyName>stajyer_takip_uygulamasi</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGiris.Designer.cs">
+      <DependentUpon>frmGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAnaEkran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAnaEkran.Designer.cs">
+      <DependentUpon>frmAnaEkran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKayiExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKayiExcel.Designer.cs">
+      <DependentUpon>frmKayiExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOgrenciEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOgrenciEkle.Designer.cs">
+      <DependentUpon>frmOgrenciEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOgrenciSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOgrenciSil.Designer.cs">
+      <DependentUpon>frmOgrenciSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanici.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmGiris.resx">
+      <DependentUpon>frmGiris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAnaEkran.resx">
+      <DependentUpon>frmAnaEkran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKayiExcel.resx">
+      <DependentUpon>frmKayiExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOgrenciEkle.resx">
+      <DependentUpon>frmOgrenciEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOgrenciSil.resx">
+      <DependentUpon>frmOgrenciSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgw3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgw5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgw4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgw6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backMark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addMark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addUserk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addMark1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editUserk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refreshMarkK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconadd2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personDD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgw2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgw21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bgw41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\okMark.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

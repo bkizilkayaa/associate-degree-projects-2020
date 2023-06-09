@@ -1,0 +1,12 @@
+E:\USB\stajyer_takip\stajyer_takip_uygulamasi\stajyer_takip_uygulamasi\bin\Debug\stajyer_takip_uygulamasi.exe
+E:\USB\stajyer_takip\stajyer_takip_uygulamasi\stajyer_takip_uygulamasi\bin\Debug\stajyer_takip_uygulamasi.pdb
+E:\USB\stajyer_takip\stajyer_takip_uygulamasi\stajyer_takip_uygulamasi\obj\Debug\stajyer_takip_uygulamasi.csprojResolveAssemblyReference.cache
+E:\USB\stajyer_takip\stajyer_takip_uygulamasi\stajyer_takip_uygulamasi\obj\Debug\stajyer_takip_uygulamasi.Properties.Resources.resources
+E:\USB\stajyer_takip\stajyer_takip_uygulamasi\stajyer_takip_uygulamasi\obj\Debug\stajyer_takip_uygulamasi.csproj.GenerateResource.Cache
+E:\USB\stajyer_takip\stajyer_takip_uygulamasi\stajyer_takip_uygulamasi\obj\Debug\stajyer_takip_uygulamasi.exe
+E:\USB\stajyer_takip\stajyer_takip_uygulamasi\stajyer_takip_uygulamasi\obj\Debug\stajyer_takip_uygulamasi.pdb
+E:\USB\stajyer_takip\stajyer_takip_uygulamasi\stajyer_takip_uygulamasi\obj\Debug\stajyer_takip_uygulamasi.frmAnaEkran.resources
+E:\USB\stajyer_takip\stajyer_takip_uygulamasi\stajyer_takip_uygulamasi\obj\Debug\stajyer_takip_uygulamasi.frmGiris.resources
+E:\USB\stajyer_takip\stajyer_takip_uygulamasi\stajyer_takip_uygulamasi\obj\Debug\stajyer_takip_uygulamasi.frmOgrenciEkle.resources
+E:\USB\stajyer_takip\stajyer_takip_uygulamasi\stajyer_takip_uygulamasi\obj\Debug\stajyer_takip_uygulamasi.frmOgrenciSil.resources
+E:\USB\stajyer_takip\stajyer_takip_uygulamasi\stajyer_takip_uygulamasi\obj\Debug\stajyer_takip_uygulamasi.frmKayiExcel.resources
